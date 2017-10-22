@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnetcoredemo:
+    image: dotnetcoredemo
+    build:
+      context: ./DotNetCoreDemo
+      dockerfile: Dockerfile
